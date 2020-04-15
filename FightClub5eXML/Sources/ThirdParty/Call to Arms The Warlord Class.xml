@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5" auto_indent="YES">
+
+<!-- Warlord -->
+<class>
+		<name>Warlord</name>
+		<hd>10</hd>
+		<proficiency>Wisdom, Charisma, Athletics, History, Insight, Intimidation, Medicine, Perception, Persuasion</proficiency>
+		<numSkills>2</numSkills>
+		<armor>All armor, shields</armor>
+		<weapons>Simple weapons, martial weapons</weapons>
+		<tools>None</tools>
+		<wealth>4d4x10</wealth>
+
+		<autolevel level="1">
+			<feature optional="YES">
+                <name>Starting Warlord</name>
+                <text>As a 1st-level Warlord, you begin play with 10 + your Constitution modifier hit points.</text>
+                <text> </text>
+                <text>You are proficient with the following items, in addition to any proficiencies provided by your race or background.</text>
+                <text>&#8226; Armor: All armor, shields</text>
+                <text>&#8226; Weapons: Simple weapons, martial weapons</text>
+                <text>&#8226; Tools: none</text>
+                <text>&#8226; Skills: Choose two from Athletics, History, Insight, Intimidation, Medicine, Perception, and Persuasion</text>
+                <text> </text>
+                <text>You begin play with the following equipment, in addition to any equipment provided by your background.</text>
+                <text>&#8226; (a) a chain mail or (b) leather armor, longbows, and 20 arrows</text>
+                <text>&#8226; (a) a martial weapon and a shield or (b) two martial weapons</text>
+                <text>&#8226; (a) light crossbow and 20 bolts or (b) two spears</text>
+				<text>&#8226; (a) a dungeoneer's pack or (b) an explorer's pack</text>
+                <text> </text>
+                <text>Alternatively, you may start with 4d4x10 gp and choose your own equipment.</text>
+                <text> </text>
+                <text>Source: Call to Arms: The Warlord, p. 3</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="1">
+            <feature optional="YES">
+                <name>Multiclass Warlord</name>
+                <text>To multiclass as a Warlord, you must meet the following prerequisites:</text>
+                <text> </text>
+                <text> </text>
+                <text>You gain the following proficiencies:</text>
+                <text>&#8226; All armor, shields, simple weapons, and martial weapons</text>
+                <text> </text>
+                <text>Source: Call to Arms: The Warlord, p. 3</text>
+            </feature>
+        </autolevel>
+		
+		<autolevel level="1">
+			<feature>
+				<name>Battlefield Commands</name>
+				<text>You can quickly survey the battlefield and devise a plan of action to defeat your enemies. You can take a bonus action to issue battlefield commands to friendly creatures within 30 feet of you that can hear you. You can issue a number of commands equal to your Charisma modifer (minimum once). The commands remain for 10 minutes or until expended. Once you issue these commands, you cannot do so again until you fnish a short or long rest.</text>
+				<text>Each command issued grants the creature a bonus die, which is a d4. When the creature would make an attack roll, ability check, or saving throw, the creature can expend the die by rolling it and adding the number rolled to the total. The creature can wait until after it rolls the d20 before deciding to use the Battle Command die, but must decide before the GM reveals whether the roll succeeds or fails. Once expended, the bonus die is lost.</text>
+				<text>When you reach certain levels in this class, the bonus die changes. The die becomes a d6 at 5th level, a d8 at 9th level, a d10 at 13th level, and a d12 at 17th level.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 3</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="1">
+			<counter><name>Commands</name><value>1</value><reset>S</reset></counter>
+		</autolevel>
+		
+		<autolevel level="1">
+			<feature>
+				<name>Commanding Presence</name>
+				<text>Your allies can attack at your command. When you would make an attack on your turn, you can forgo making the attack to allow a friendly creature within 10 feet of you to make an attack instead. If the target can hear you, it can take a reaction to make one weapon attack.</text>
+				<text>The range of your presence increases to 30 feet at 10th level and increases again to 60 feet at 20th level.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 3</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="2">
+			<feature><name>Inspiring Speech</name>
+				<text>Starting at 2nd level, you can deliver a stirring speech during a short rest to encourage your allies. You and any friendly creatures that can hear your speed gain temporary hit points. The amount of temporary hit points each creature gains is equal to the roll of the creature’s Hit Die.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 3</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Military Stratagems</name>
+				<text>At 3rd level, you devise a military stratagem of your choice, such as the Stratagem of the Daring Gambler. Your choice grants you features at 3rd level, and again at 7th, 11th, 15th, and 18th level.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 3</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Stratagem of the Daring Gambler</name>
+				<text>Every conﬂict has its risks, dangers, and unexpected outcomes. Students of the Daring Gambler embrace the uncertainty that comes in battle, taking daring and sometimes desperate risks in the hope of securing a victory. Favoring audacious tactics, they put themselves and their allies into precarious situations only to come out on top through sheer luck. Warlords  who adopt the military techniques of this stratagem tend to be bold, daring, and brimming with confdence.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 5</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Daring Assault(2d6) (Stratagem of the Daring Gambler)</name>
+				<text>Beginning at 3rd level when you choose this stratagem, while you are conscious, any ally within range of your Commanding Presence that makes an attack roll can choose to roll with a –5 penalty. If the attack hits, the attack deals an extra 2d6 damage. At 15th  level, the amount of extra damage increases to 3d6.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 5</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Stratagem of the Golden General</name>
+				<text>The Stratagem of the Golden General specializes in leadership, presentation, and command. Warlords who employ this stratagem lead by example. Their accomplishments inspire others to do the same, to push beyond their normal limitations, and achieve what ordinary soldiers can’t.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 5</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Inspiring Strike (Stratagem of the Golden General)</name>
+				<text>Beginning at 3rd level when you choose this stratagem, whenever you hit a creature with a weapon attack, the target grants advantage to the next creature to attack it before the start of your next turn.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 5</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Stratagem of the Hordemaster</name>
+				<text>Speed and mobility are the hallmarks of warlords who study the Stratagem of the Hordemaster. Favoring hitand-run tactics, these skirmishing warlords keep on the move to stay a step ahead of their enemies. Such mobility allows them and their fellow warriors to rain arrows and bolts upon their enemies, while thwarting any attempts to close the gap between them. By winnowing down their opponents and always keeping out of reach, they can take down the most dangerous of foes.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 6</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Make Haste (Stratagem of the Hordemaster)</name>
+				<text>Beginning at 3rd level when you choose this stratagem, whenever a friendly creature starts its turn within range of your Commanding Presence, the creature increases its speed by 5 feet until the end of its turn.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 6</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Skirmisher(10ft) (Stratagem of the Hordemaster)</name>
+				<text>Also at 3rd level, you increase your speed by 10 feet whenever you’re wearing light or no armor and not wielding a shield. In addition, when your movement would provoke an opportunity attack, you impose disadvantage on the attack roll made against you. At 15th level, the increase to your speed becomes 20 feet.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 6</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Stratagem of the Resourceful Leader</name>
+				<text>Few battle plans ever survive intact upon the frst encounter with the enemy. Chance, circumstances, and other variables can disrupt even the most lopsided conﬂicts, turning what should be an easy battle into a deadly one. Students of the Stratagem of the Resourceful Leader understand the harsh realities of fghting unpredictable enemies, keeping a few tricks up their sleeves to respond to whatever complications might arise. Cunning and adaptable, these warlords can always fnd a way out of the thorniest situations.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 6</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Find a Way (Stratagem of the Resourceful Leader)</name>
+				<text>Beginning at 3rd level when you choose this stratagem, you can help allies succeed when they would otherwise fail. When a creature within 60 feet of you misses on an attack roll and the creature has at least one bonus die granted to it from your Battlefeld Commands feature, you can use a reaction to expend the bonus die on the triggering creature’s behalf. You turn the hit into a miss and the attack deals half the normal damage.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 6</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Shifting Resources (Stratagem of the Resourceful Leader)</name>
+				<text>Starting at 3rd level, you can take a bonus action on your turn to move one or more bonus dice assigned to one creature to another creature you choose within range of your Commanding Presence class feature. The recipient of the bonus die or dice must be able to hear you.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 6</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Stratagem of the Shrewd Commander</name>
+				<text>Warlords who master the Stratagem of the Shrewd Commander demonstrate superior focus and attention to detail on the battlefield. As they watch the combat unfold, they assess their enemies for weakness and exploit them through commands. Shrewd Commanders fnd gaps in their enemies’ defenses and ﬂaws in their tactics, using this knowledge to lead their allies to victory.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 7</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>The Weakest Link (Stratagem of the Shrewd Commander)</name>
+				<text>Beginning at 3rd level when you choose this stratagem, whenever you attack a creature and hit it, you can use a bonus action to mark the target. The target remains marked until the start of your next turn. All creatures friendly to you, that are within range of your Battlefeld Commands class feature, and that can hear you, make attack rolls against the target with a bonus equal to half your Charisma modifer (minimum 1).</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 7</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Stratagem of the Supreme Tactician</name>
+				<text>The most cerebral warlords are those who study the intricacies of the Stratagem of the Supreme Tactician. Their intimate understanding of the ebb and ﬂow of combat, the tactics used by their enemies, and the resources the warlords have at their disposal enables them to react and adjust to almost any situation.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 8</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="3">
+			<feature optional="YES">
+				<name>Tactical Edge (Stratagem of the Supreme Tactician)</name>
+				<text>Beginning at 3rd level when you choose this stratagem, whenever you roll initiative, you gain a tactics die, which is a d4. While you have this die, any creature friendly to you within 60 feet of you that can hear you, can roll the tactics die as a bonus die when making an attack roll. Once rolled, the tactics die is lost until you regain it at the start of your next turn. The tactics die disappears when the combat ends.</text>
+				<text>If you start your turn and no one has rolled the tactics die, you can trade out the die for a die of the next larger size, such that a d4 becomes a d6, a d6 becomes a d8, and so on up to a maximum of d12.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 8</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="4" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&#8217;t increase an ability score above 20 using this feature.</text>
+                <text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+                <text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 3</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="5">
+            <feature>
+                <name>Extra Attack</name>
+                <text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+				<text>The number of attacks increases to three when you reach 11th level.</text>
+                <text>    </text>
+                <text>Source: Call to Arms: The Warlord, p. 4</text>
+            </feature>
+        </autolevel>
+		
+		<autolevel level="5">
+			<feature>
+				<name>Battlefield Commands(D6)</name>
+				<text>At 5th level, your bonus die issued by the Battlefield Commands feature becomes a d6.</text>
+				<text>When you reach certain levels in this class, the bonus die changes. The die becomes a d8 at 9th level, a d10 at 13th level, and a d12 at 17th level.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 3</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="6">
+			<feature>
+				<name>Battle Leader</name>
+				<text>Starting at 6th level, allies within range of your Commanding Presence class feature deal additional damage with their weapon attacks. The amount of extra damage equals your Charisma modifier.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 4</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="6">
+			<feature>
+				<name>Call to Arms</name>
+				<text>Starting at 6th level, when you roll initiative, you and each creature friendly to you that are within range of your Commanding Presence feature each roll a bonus die and add the number rolled to their initiative check. The bonus die is the same size as the bonus die gained from your Battlefeld Commands feature.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 4</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Desperate Avoidance (Stratagem of the Daring Gambler)</name>
+				<text>Starting at 7th level, when you would make a saving throw, you can choose to make the saving throw with advantage, but you make all attack rolls with disadvantage until the end of your next turn. Once you use this feature, you must wait until you finish a short rest or long rest before you can use it again.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 5</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Inspiring Presence (Stratagem of the Golden General)</name>
+				<text>At 7th level, you gain profciency in the Persuasion skill. If you already have profciency in this skill, your profciency bonus is doubled whenever you make an ability check that uses Persuasion.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 5</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Nimble Troops (Stratagem of the Hordemaster)</name>
+				<text>At 7th level creatures within range of your Commanding Presence add your Charisma modifer to their Strength (Athletics) checks and their Dexterity (Acrobatics) checks.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 6</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Trick Up Your Sleeve (Stratagem of the Resourceful Leader)</name>
+				<text>At 7th level, when you would make an attack roll, ability check, or saving throw, you can add your profciency bonus to the roll, even if you already would add your profciency bonus to the roll. Once you use this feature, you must fnish a short rest or a long rest before you can use it again.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 7</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Attention to Detail (Stratagem of the Shrewd Commander)</name>
+				<text>At 7th level, when you make an ability check, you can make the check with advantage. You can use this feature three times and you regain expended uses when you complete a long rest.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 7</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="7">
+			<counter><name>AttentiontoDetail</name><value>3</value><reset>L</reset></counter>
+		</autolevel>
+		
+		<autolevel level="7">
+			<feature optional="YES">
+				<name>Student of History (Stratagem of the Supreme Tactician)</name>
+				<text>At 7th level, you gain profciency in the History skill. Whenever you make an Intelligence (History) check, your profciency bonus is doubled.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 8</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="8" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&#8217;t increase an ability score above 20 using this feature.</text>
+                <text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+                <text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 3</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="9">
+			<feature>
+				<name>Battlefield Commands(D8)</name>
+				<text>At 9th level, your bonus die issued by the Battlefield Commands feature becomes a d8.</text>
+				<text>When you reach certain levels in this class, the bonus die changes. The die becomes a d10 at 13th level, and a d12 at 17th level.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 3</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="10">
+			<feature>
+				<name>Commanding Presence(30 ft)</name>
+				<text>Your allies can attack at your command. When you would make an attack on your turn, you can forgo making the attack to allow a friendly creature within 30 feet of you to make an attack instead. If the target can hear you, it can take a reaction to make one weapon attack. The range of your presence increases to 60 feet at 20th level.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 3</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="10">
+			<feature>
+				<name>Rouse the Troops</name>
+				<text>At 10th level, you can spend 1 minute speaking words of encouragement and support to help your companions shake oﬀ fatigue and injury. Each friendly creature that can hear you can spend any number of Hit Dice to regain hit points without having to finish a short or a long rest. In addition, each creature that does spend at least one Hit Die in this way can remove one level of exhaustion if it has any levels of exhaustion. Once a creature has removed a level of exhaustion from your use of this class feature, the creature must fnish a long rest before it can do so again.</text> 
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 4</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="11">
+			<feature>
+				<name>Extra Attack</name>
+				<text>Beginning at 11th level, you can attack three times, instead of two, whenever you take the Attack action on your turn.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 4</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="11">
+			<feature optional="YES">
+				<name>Hold the Line (Stratagem of the Daring Gambler)</name>
+				<text>At 11th level, while you are conscious, any ally within range of your Commanding Presence feature that would make a saving throw can choose to make the saving throw with disadvantage. If a success on the saving throw would cause the ally to take half the damage, the ally takes no damage on a successful save instead.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 5</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="11">
+			<feature optional="YES">
+				<name>Glorious Sacrifice (Stratagem of the Golden General)</name>
+				<text>Beginning at 11th level, when you and at least one other friendly creature within range of your Commanding Presence would make a saving throw, you can choose to make your saving throw with disadvantage and grant any creatures of your choice within the area of your Commanding Presence advantage on the same saving throw.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 5</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="11">
+			<feature optional="YES">
+				<name>Hit-and-Run (Stratagem of the Hordemaster)</name>
+				<text>At 11th level, whenever a creature rolls the bonus die assigned to it from your Battlefeld Commands feature, the creature increases its speed by 10 feet until the end of its turn.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 6</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="11">
+			<feature optional="YES">
+				<name>Close Call (Stratagem of the Resourceful Leader)</name>
+				<text>Starting at 11th level, when you would fail an ability check or saving throw, you can roll a bonus die and add the number rolled to the total of your ability check or saving throw. The bonus die is the same size as the bonus die granted by your Battlefeld Commands feature. Once you use Close Call, you must wait at least 1 minute before you can use it again.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 7</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="11">
+			<feature optional="YES">
+				<name>Commander's Cunning (Stratagem of the Shrewd Commander)</name>
+				<text>Starting at 11th level, when a creature attacks a creature to whom you have assigned a bonus die from your Battlefeld Commands feature, you can use a reaction to expend the bonus die and impose disadvantage on the triggering creature’s attack roll.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 7</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="11">
+			<feature optional="YES">
+				<name>Indomitable Offense (Stratagem of the Supreme Tactician)</name>
+				<text>Starting at 11th level, whenever a creature rolls a bonus die granted by your Battlefeld Commands feature, the creature also gains half the number rolled on that die as a bonus to AC. The bonus remains until the start of your next turn.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 8</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="12" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&#8217;t increase an ability score above 20 using this feature.</text>
+                <text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+                <text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 3</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="13">
+			<feature>
+				<name>Battlefield Commands(D10)</name>
+				<text>At 13th level, your bonus die issued by the Battlefield Commands feature becomes a d10.</text>
+				<text>When you reach certain levels in this class, the bonus die changes. The die becomes a d12 at 17th level.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 3</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="14">
+			<feature>
+				<name>Advantageous Action</name>
+				<text>Starting at 14th level, your experience in battle lets you help your companions more easily. You can use the Help action as a bonus action. In addition, when you take the Help action, the target can beneft from any one the following eﬀects that you choose:</text>
+				<text>     </text>
+				<text>•	 You end the frightened condition on one creature within 30 feet of you that can hear you.</text>
+				<text>     </text>
+				<text>•	 You grant one creature within 5 feet of you temporary hit points equal to your Charisma modifer.</text>
+				<text>     </text>
+				<text>•	 You touch a living creature that has 0 hit points. The creature regains 1 hit point.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 4</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Risky Gambit (Stratagem of the Daring Gambler)</name>
+				<text>Starting at 15th level, you can take a bonus action to choose one creature within range of your Commanding Presence. The target immediately provokes an opportunity attack from one creature that can reach it. If the creature makes the attack, that creature grants advantage on all attack rolls made against it until the start of your next turn.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 5</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Daring Assault(3d6) (Stratagem of the Daring Gambler)</name>
+				<text>Starting at 15th while you are conscious, any ally within range of your Commanding Presence that makes an attack roll can choose to roll with a –5 penalty. If the attack hits, the attack deals an extra 3d6 damage.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 5</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Portentous Escape (Stratagem of the Golden General)</name>
+				<text>At 15th level, whenever you succeed on a saving throw, you can choose one friendly creature within 60 feet of you. If the target can see and hear you, the target gains temporary hit points equal to 5 + your Charisma modifier.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 5</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Seize Advantage (Stratagem of the Hordemaster)</name>
+				<text>Starting at 15th level, whenever a creature misses on an opportunity attack against you or a creature friendly to you within range of your Commanding Presence feature, the attacking creature grants advantage on the next attack roll made against it before the end of your next turn.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 6</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Skirmisher(20ft) (Stratagem of the Hordemaster)</name>
+				<text>Starting at 15th level, you increase your speed by 20 feet whenever you’re wearing light or no armor and not wielding a shield. In addition, when your movement would provoke an opportunity attack, you impose disadvantage on the attack roll made against you.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 6</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Timely Warning (Stratagem of the Resourceful Leader)</name>
+				<text>At 15th level, whenever a creature would hit on an attack roll against a creature friendly to you that is within range of your Commanding Presence feature, and the creature has a bonus die from your Battlefeld Commands feature, the creature can expend the die, roll it, and subtract the number rolled from the total of the attack roll. If the reduction would turn the hit into a miss, the creature regains the bonus die.</text> 
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 7</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Exploit the Advantage (Stratagem of the Shrewd Commander)</name>
+				<text>At 15th level, whenever a creature friendly to you attacks a target you marked, the creature’s attack deals an additional 1d6 damage.</text> 
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 8</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="15">
+			<feature optional="YES">
+				<name>Superior Tactics (Stratagem of the Supreme Tactician)</name>
+				<text>At 15th level, whenever you gain a tactics die, you gain an additional tactics die to a maximum of two dice. The second tactics die can be used like the first and the tactics die increases size in the manner described under the Tactical Edge class feature.</text> 
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 8</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="16" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&#8217;t increase an ability score above 20 using this feature.</text>
+                <text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+                <text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 3</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="17">
+			<feature>
+				<name>Battlefield Commands(D12)</name>
+				<text>At 17th level, your bonus die issued by the Battlefield Commands feature becomes a d12.</text> 
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 3</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Lay the Trap (Stratagem of the Daring Gambler)</name>
+				<text>At 18th level, while you are conscious, whenever a creature makes an attack roll against you and misses, you and one creature of your choice make your next attack roll against the triggering creature with advantage before the end of your next turn.</text> 
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 5</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Rally the Troops (Stratagem of the Golden General)</name>
+				<text>At 18th level, you can take an action to rally your companions. Choose one creature that has a bonus die assigned to it from your Battlefeld Commands feature. The number of hit points regained equals twice the roll of the bonus die granted by your Battlefeld Commands feature plus your Charisma modifer (minimum 1).</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 6</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Unbound Horde (Stratagem of the Hordemaster)</name>
+				<text>At 18th level, hostile creatures making opportunity attacks against creatures friendly to you that are within range of your Commanding Presence feature make their attack rolls with disadvantage.</text>
+				<text>In addition, if you move on your turn, each creature within range of your Commanding Presence at the start of your move can use a reaction to move up to 10 feet, provided the creature’s speed is at least 10 feet.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 6</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Hidden Resources (Stratagem of the Resourceful Leader)</name>
+				<text>At 18th level, you can take a bonus action to allow a creature to regain the use of a racial or class feature that would normally be regained by fnishing a short rest. You can use this feature twice and you regain any expended uses when you fnish a long rest.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 7</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>No Room for Failure (Stratagem of the Shrewd Commander)</name>
+				<text>At 18th level, while you are conscious and when an ally within range of your Commanding Presence would drop to 0 or fewer hit points and the creature has at least one bonus die from your Battlefeld Commands feature, the creature can spend the die and roll it to regain hit points. The number of hit points regained equals twice the roll of the bonus die granted by your Battlefeld Commands feature plus your Charisma modifer (minimum 1).</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 8</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="18">
+			<feature optional="YES">
+				<name>Master Tactician (Stratagem of the Supreme Tactician)</name>
+				<text>At 18th level, whenever a creature rolls a 1 or a 2 on a bonus die you granted from your Battlefeld Commands feature, the creature can reroll the die until it rolls a 3 or higher.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 8</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="19" scoreImprovement="YES">
+			<feature>
+				<name>Ability Score Improvement</name>
+				<text>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&#8217;t increase an ability score above 20 using this feature.</text>
+                <text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+                <text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 3</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="20">
+			<feature>
+				<name>Commanding Presence(60 ft)</name>
+				<text>Your allies can attack at your command. When you would make an attack on your turn, you can forgo making the attack to allow a friendly creature within 60 feet of you to make an attack instead. If the target can hear you, it can take a reaction to make one weapon attack.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 3</text>
+			</feature>
+		</autolevel>
+		
+		<autolevel level="20">
+			<feature>
+				<name>Legendary Commander</name>
+				<text>At 20th level, friendly creatures within range of your Commanding Presence add your Charisma modifer (minimum 1) to their saving throws. Additionally, whenever a creature would roll a bonus die from your Battlefield Command class feature, the creature can roll an extra bonus die and use either result.</text>
+				<text>    </text>
+				<text>Source: Call to Arms: The Warlord, p. 4</text>
+			</feature>
+		</autolevel>
+</class>
+</compendium>
